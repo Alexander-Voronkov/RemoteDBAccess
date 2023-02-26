@@ -1,0 +1,6 @@
+D:\projects\_RemoteDbAccess\ModelsDTO\bin\Release\ModelsDTO.dll
+D:\projects\_RemoteDbAccess\ModelsDTO\bin\Release\ModelsDTO.pdb
+D:\projects\_RemoteDbAccess\ModelsDTO\obj\Release\ModelsDTO.csproj.AssemblyReference.cache
+D:\projects\_RemoteDbAccess\ModelsDTO\obj\Release\ModelsDTO.csproj.CoreCompileInputs.cache
+D:\projects\_RemoteDbAccess\ModelsDTO\obj\Release\ModelsDTO.dll
+D:\projects\_RemoteDbAccess\ModelsDTO\obj\Release\ModelsDTO.pdb

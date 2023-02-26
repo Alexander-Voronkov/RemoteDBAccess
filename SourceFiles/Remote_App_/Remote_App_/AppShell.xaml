@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Remote_App_.AppShell" xmlns:views="clr-namespace:Remote_App_.Views" BackgroundColor="Black">
+
+    <TabBar>
+        <ShellContent
+            Title="Select/Delete"
+            ContentTemplate="{DataTemplate views:ShowAll}">
+        </ShellContent>
+        <ShellContent
+            Title="Insert/Update"
+            ContentTemplate="{DataTemplate views:InsertPage}">
+        </ShellContent>
+    </TabBar>
+</Shell>

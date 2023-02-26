@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Remote_App_.Views.ConnectionPage" BackgroundColor="Black">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Text="Enter server information:" FontSize="Medium"></Label>
+            <Entry x:Name="IP" Grid.Row="1" Margin="10" Placeholder="Enter IP: (x.x.x.x)"></Entry>
+            <Entry x:Name="Port" Grid.Row="2" Margin="10" Placeholder="Enter Port:"></Entry>
+            <Button Grid.Row="4" Text="Connect" Margin="30" x:Name="Connect_Btn" ></Button>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,43 @@
+﻿<Window x:Class="_RemoteDbAccess.UpdateBookModal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_RemoteDbAccess"
+        mc:Ignorable="d"
+        Title="UpdateBookModal" Height="500" Width="800" Background="Black" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Grid.Column="3" Grid.ColumnSpan="3" Margin="15px" Click="Button_Click_1">Update</Button>
+        <Button Grid.Column="0" Grid.ColumnSpan="3" Margin="15px" Click="Button_Click">Cancel</Button>
+        <Label FontSize="15pt" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0">Title</Label>
+        <TextBox x:Name="title" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="4" Margin="20px" TextChanged="title_TextChanged"></TextBox>
+        <Label FontSize="15pt" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0">Description</Label>
+        <TextBox x:Name="description" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="4" Margin="20px" TextChanged="description_TextChanged"></TextBox>
+        <Label FontSize="15pt" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="0">Content</Label>
+        <Button x:Name="contentchoose" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="4" Margin="20px" Click="contentchoose_Click">Choose a file with content destination</Button>
+        <Label FontSize="15pt" Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="0">Cover</Label>
+        <Button x:Name="coverchoose" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="4" Margin="20px" Click="coverchoose_Click">Choose a file with content destination</Button>
+        <Label FontSize="15pt" Grid.Row="5" Grid.RowSpan="2" Grid.ColumnSpan="2" Grid.Column="0" >Authors</Label>
+        <ListBox SelectionMode="Single" x:Name="authors" Grid.Row="5" Grid.RowSpan="2" Grid.Column="2" Grid.ColumnSpan="2" Margin="20px"></ListBox>
+        <TextBox x:Name="tempauthor" Margin="20px" Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="5">Enter author</TextBox>
+        <Button x:Name="addauthor" Grid.Column="4" Grid.Row="6" Margin="20px" Click="addauthor_Click">Add</Button>
+        <Button x:Name="delauthor" Grid.Column="5" Grid.Row="6" Margin="20px" Click="delauthor_Click">Delete</Button>
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+D:\projects\_RemoteDbAccess\Client\obj\Release\Client.csproj.AssemblyReference.cache
+D:\projects\_RemoteDbAccess\Client\obj\Release\Client.csproj.CoreCompileInputs.cache
+D:\projects\_RemoteDbAccess\Client\bin\Release\Client.dll
+D:\projects\_RemoteDbAccess\Client\bin\Release\Client.pdb
+D:\projects\_RemoteDbAccess\Client\bin\Release\MessagePacket.dll
+D:\projects\_RemoteDbAccess\Client\bin\Release\MessagePacket.pdb
+D:\projects\_RemoteDbAccess\Client\obj\Release\Client.csproj.CopyComplete
+D:\projects\_RemoteDbAccess\Client\obj\Release\Client.dll
+D:\projects\_RemoteDbAccess\Client\obj\Release\Client.pdb

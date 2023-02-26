@@ -1,0 +1,14 @@
+D:\projects\_RemoteDbAccess\Models\obj\x86\Release\Models.csproj.AssemblyReference.cache
+D:\projects\_RemoteDbAccess\Models\obj\x86\Release\Models.csproj.CoreCompileInputs.cache
+D:\projects\_RemoteDbAccess\Models\bin\x86\Release\Models.dll.config
+D:\projects\_RemoteDbAccess\Models\bin\x86\Release\Models.dll
+D:\projects\_RemoteDbAccess\Models\bin\x86\Release\Models.pdb
+D:\projects\_RemoteDbAccess\Models\bin\x86\Release\EntityFramework.dll
+D:\projects\_RemoteDbAccess\Models\bin\x86\Release\EntityFramework.SqlServer.dll
+D:\projects\_RemoteDbAccess\Models\bin\x86\Release\ModelsDTO.dll
+D:\projects\_RemoteDbAccess\Models\bin\x86\Release\EntityFramework.xml
+D:\projects\_RemoteDbAccess\Models\bin\x86\Release\EntityFramework.SqlServer.xml
+D:\projects\_RemoteDbAccess\Models\bin\x86\Release\ModelsDTO.pdb
+D:\projects\_RemoteDbAccess\Models\obj\x86\Release\Models.csproj.CopyComplete
+D:\projects\_RemoteDbAccess\Models\obj\x86\Release\Models.dll
+D:\projects\_RemoteDbAccess\Models\obj\x86\Release\Models.pdb

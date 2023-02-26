@@ -1,0 +1,6 @@
+D:\projects\_RemoteDbAccess\MessagePacket\bin\Release\MessagePacket.dll
+D:\projects\_RemoteDbAccess\MessagePacket\bin\Release\MessagePacket.pdb
+D:\projects\_RemoteDbAccess\MessagePacket\obj\Release\MessagePacket.csproj.AssemblyReference.cache
+D:\projects\_RemoteDbAccess\MessagePacket\obj\Release\MessagePacket.csproj.CoreCompileInputs.cache
+D:\projects\_RemoteDbAccess\MessagePacket\obj\Release\MessagePacket.dll
+D:\projects\_RemoteDbAccess\MessagePacket\obj\Release\MessagePacket.pdb
